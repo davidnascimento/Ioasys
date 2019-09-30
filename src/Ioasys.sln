@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{819AE976-6B15-4083-8ADB-A4482E251924}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{39FD6CA1-117A-46CB-B693-04C373935F34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{74BEE192-6BA3-459D-B280-19F2A2AE9B7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{FEF0A18D-C4F1-4C6D-94D3-E1924AE7D82F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{75054F23-3B2B-4E70-A0AF-E4811E642C2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{C1211CE7-6E9F-4B01-937E-8B7AA1B420B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioasys.Domain", "Domain\Ioasys.Domain\Ioasys.Domain.csproj", "{AF8809F8-ABCE-4149-904C-9F0DBCC585FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioasys.Infra.Data", "Infra\Data\Ioasys.Infra.Data\Ioasys.Infra.Data.csproj", "{9115D9F3-496D-4FF9-96C8-8D44BCE68643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioasys.Infra.CrossCutting.IoC", "Infra\CrossCutting\Ioasys.Infra.CrossCutting.IoC\Ioasys.Infra.CrossCutting.IoC.csproj", "{7D5C15CB-D7FC-4F97-9119-9E220039D9D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioasys.Application", "Application\Ioasys.Application\Ioasys.Application.csproj", "{1FA72CE1-B49E-4AE3-BDEA-8542CFC6CEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioasys.Enterprise", "Services\Ioasys.Enterprise\Ioasys.Enterprise.csproj", "{1B4DB9B5-F5B8-422A-B48B-FC97DD60EED8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3 - Utility", "4.3 - Utility", "{DB2988E2-8650-4F8A-AD48-704E9BA3BD03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioasys.Utility", "Infra\Utility\Ioasys.Utility\Ioasys.Utility.csproj", "{DF02D7F5-E119-4D30-BD24-15647E5FFEF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF8809F8-ABCE-4149-904C-9F0DBCC585FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8809F8-ABCE-4149-904C-9F0DBCC585FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8809F8-ABCE-4149-904C-9F0DBCC585FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8809F8-ABCE-4149-904C-9F0DBCC585FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9115D9F3-496D-4FF9-96C8-8D44BCE68643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9115D9F3-496D-4FF9-96C8-8D44BCE68643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9115D9F3-496D-4FF9-96C8-8D44BCE68643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9115D9F3-496D-4FF9-96C8-8D44BCE68643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5C15CB-D7FC-4F97-9119-9E220039D9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5C15CB-D7FC-4F97-9119-9E220039D9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5C15CB-D7FC-4F97-9119-9E220039D9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5C15CB-D7FC-4F97-9119-9E220039D9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA72CE1-B49E-4AE3-BDEA-8542CFC6CEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA72CE1-B49E-4AE3-BDEA-8542CFC6CEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA72CE1-B49E-4AE3-BDEA-8542CFC6CEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA72CE1-B49E-4AE3-BDEA-8542CFC6CEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4DB9B5-F5B8-422A-B48B-FC97DD60EED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4DB9B5-F5B8-422A-B48B-FC97DD60EED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4DB9B5-F5B8-422A-B48B-FC97DD60EED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4DB9B5-F5B8-422A-B48B-FC97DD60EED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF02D7F5-E119-4D30-BD24-15647E5FFEF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF02D7F5-E119-4D30-BD24-15647E5FFEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF02D7F5-E119-4D30-BD24-15647E5FFEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF02D7F5-E119-4D30-BD24-15647E5FFEF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75054F23-3B2B-4E70-A0AF-E4811E642C2C} = {FEF0A18D-C4F1-4C6D-94D3-E1924AE7D82F}
+		{C1211CE7-6E9F-4B01-937E-8B7AA1B420B4} = {FEF0A18D-C4F1-4C6D-94D3-E1924AE7D82F}
+		{AF8809F8-ABCE-4149-904C-9F0DBCC585FE} = {74BEE192-6BA3-459D-B280-19F2A2AE9B7F}
+		{9115D9F3-496D-4FF9-96C8-8D44BCE68643} = {75054F23-3B2B-4E70-A0AF-E4811E642C2C}
+		{7D5C15CB-D7FC-4F97-9119-9E220039D9D9} = {C1211CE7-6E9F-4B01-937E-8B7AA1B420B4}
+		{1FA72CE1-B49E-4AE3-BDEA-8542CFC6CEBC} = {39FD6CA1-117A-46CB-B693-04C373935F34}
+		{1B4DB9B5-F5B8-422A-B48B-FC97DD60EED8} = {819AE976-6B15-4083-8ADB-A4482E251924}
+		{DB2988E2-8650-4F8A-AD48-704E9BA3BD03} = {FEF0A18D-C4F1-4C6D-94D3-E1924AE7D82F}
+		{DF02D7F5-E119-4D30-BD24-15647E5FFEF1} = {DB2988E2-8650-4F8A-AD48-704E9BA3BD03}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {035C6E5D-1E0C-4E63-93EE-0896A00AA7C1}
+	EndGlobalSection
+EndGlobal

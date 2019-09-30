@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Ioasys.Domain\Ioasys.Domain.csproj" />
+    <ProjectReference Include="..\..\Infra\Utility\Ioasys.Utility\Ioasys.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
